@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">kotlin_training</string>
+    <string name="this_is_kotlin_training">This is kotlin training</string>
+    <string name="next">next</string>
 </resources>

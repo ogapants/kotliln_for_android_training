@@ -1,1 +1,4 @@
 # kotlin_for_android_training
+
+TextViewとButtonを使用してfindviewByIdで関連付けを行なって値を入れる方法と、dataBindingで値を設定する方法に挑戦しました。
+onClick周りは、これで本当に動くのレベルになったので、純粋に驚きでした。
