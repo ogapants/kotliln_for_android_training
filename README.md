@@ -1,2 +1,2 @@
 # kotlin_for_android_training
-FragmentとTabLayoutを使用した例
+Example using Fragment and TabLayout
