@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data />
 
-    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context="com.example.shou.kotlin_training.MainActivity">
+        android:orientation="vertical">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/main_recycler_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
 
-    </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
 </layout>

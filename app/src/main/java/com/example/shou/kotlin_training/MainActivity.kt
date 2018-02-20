@@ -13,16 +13,16 @@ class MainActivity : AppCompatActivity() {
         val binding: ActivityMainBinding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val list: MutableList<RecycleItemViewModel> = ArrayList()
-        list.add(RecycleItemViewModel(RecycleItemModel("test1")))
-        list.add(RecycleItemViewModel(RecycleItemModel("test2")))
-        list.add(RecycleItemViewModel(RecycleItemModel("test3")))
-        list.add(RecycleItemViewModel(RecycleItemModel("test4")))
-        list.add(RecycleItemViewModel(RecycleItemModel("test5")))
-        list.add(RecycleItemViewModel(RecycleItemModel("test6")))
+        val list: ArrayList<RecycleItemModel> = ArrayList()
+        list.add(RecycleItemModel("test1"))
+        list.add(RecycleItemModel("test2"))
+        list.add(RecycleItemModel("test3"))
+        list.add(RecycleItemModel("test4"))
+        list.add(RecycleItemModel("test5"))
+        list.add(RecycleItemModel("test6"))
 
-        val adapter = RecycleAdapter(list)
         binding.mainRecyclerView.layoutManager = LinearLayoutManager(this)
+        val adapter = RecycleAdapter(list)
         binding.mainRecyclerView.adapter = adapter
     }
 }
